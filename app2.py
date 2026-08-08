@@ -16,7 +16,7 @@ st.set_page_config(
 
 @st.cache_resource
 def load_model():
-    model = tf.keras.models.load_model("best_efficientnetb3.keras")
+    model = tf.keras.models.load_model("best_efficientnet.keras")
     return model
 
 
